@@ -1,0 +1,37 @@
+.navbar{
+  background-color: #0b3953
+}
+.navbar a{
+  font-weight: 500;
+}
+.navbar .navbar-brand{
+  padding-inline: 3rem;
+}
+.navbar .navbar-brand a{
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar .navbar-nav .nav-item{
+  padding-inline: 15px;
+}
+.navbar .navbar-nav .nav-item.signout-icon {
+  padding-inline: 3rem;
+}
+.navbar .left-items{
+  margin: auto;
+}
+.navbar.no-user .navbar-brand{
+  text-align: center;
+  width: 100%;
+}
+.navbar .nav-item .nav-link.active{
+  background-color: rgba(255,255,255,0.1);
+}
+@media screen and (max-width: 767px) {
+  .navbar .navbar-brand{
+    padding-inline: 0;
+  }
+  .navbar .navbar-nav .nav-item.signout-icon {
+    padding-inline: 15px;
+  }
+}

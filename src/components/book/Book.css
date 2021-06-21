@@ -1,0 +1,25 @@
+.book img{
+  width: 70%;
+}
+.book .add-wish{
+  background-color: #0b3953 !important;
+}
+.book h3{
+  font-weight: 700;
+  color:#0b3953;
+}
+.book h4{
+  color: #424242;
+}
+.book h5{
+  color: #6d6d6d;
+}
+@media screen and (max-width: 767px) {
+  .book .img-wrapper{
+    text-align: center;
+    margin: 10px;
+  }
+  .book img{
+    width: 50%;
+  }
+}

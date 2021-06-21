@@ -1,0 +1,60 @@
+.wish-list{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wish-list .title{
+  border-bottom: 1px solid;
+  font-weight: 600;
+  color: #0b3953;
+  padding-block: .5rem;
+}
+.wish-list .list-item{
+  justify-content: center;
+  align-items: center;
+}
+.wish-list .book-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.wish-list .card{
+  border-bottom: 1px solid #ddd;
+  margin: 10px;
+  box-shadow: unset;
+}
+.wish-list .book-wrapper .card-title p:first-child{
+    color: #424242;
+}
+.wish-list .book-wrapper .card-title p:last-child{
+  color: #6d6d6d;
+  font-weight: 500;
+}
+.wish-list .book-wrapper .view{
+  min-width: 100px;
+}
+.wish-list .book-wrapper img{
+  width: 100px;
+  height: 100px;
+}
+.wish-list .address-wrapper p:first-child{
+  color: #424242;
+  margin-bottom: .5rem;
+}
+.wish-list .address-wrapper p:not(first-child){
+  color: #6d6d6d;
+  margin-bottom: .2rem;
+}
+.wish-list .card-body{
+  padding: .5rem;
+}
+.wish-list .card-title{
+  margin-bottom: 0;
+}
+.no-wish{
+  padding: 50px;
+}
+@media screen and (max-width: 767px) {
+  .wish-list .list-item .book-wrapper{
+   flex-direction: column;
+  }
+}

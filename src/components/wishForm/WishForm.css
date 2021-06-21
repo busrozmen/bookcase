@@ -1,0 +1,6 @@
+.wish-form .row{
+  justify-content: center;
+}
+.wish-form button[type='submit']{
+  background-color:#0b3953 !important;
+}

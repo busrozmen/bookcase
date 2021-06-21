@@ -1,0 +1,19 @@
+.login-form i{
+  left: 0;
+}
+.login-form .row{
+  justify-content: center;
+}
+.login-form .md-form {
+  margin-block: 1.75rem;
+}
+.login-form .md-form .prefix{
+  top: 0.75rem;
+  font-size: 1.5rem;
+}
+.login-form .login-btn{
+  background-color:#80827e !important;
+}
+.login-form .valid-feedback, .login-form .invalid-feedback{
+  margin-left: 2.5rem;
+}
